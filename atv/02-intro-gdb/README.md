@@ -19,3 +19,4 @@ git push origin atv2.x.y
 
 - Confira se recebeu alguma issue ou então se ficou como ***PASS*** na atividade.
     - O github faz cache do svg. Se necessário, copie e cole a url direto no navegador!
+mudando algo para ver se atualiza para pass
