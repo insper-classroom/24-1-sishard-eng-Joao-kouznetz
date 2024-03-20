@@ -21,7 +21,7 @@ long ex3_solucao(long rdi, long rsi) {
         goto loop_continue;
     }
     
-    r8d += rcx;
+    // r8d += rcx;
     
     loop_continue:
     rcx += 0x1;
