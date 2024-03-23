@@ -1,13 +1,7 @@
-int ex4_solucao(int edi) {
-int ebx = edi;
-    int *rsp_8 = (int *)((char *)&edi + 8);
-    int *rsp_c = (int *)((char *)&edi + 12);
+int ex4_solucao(int *rdi, int *rsi, int *rdx, int ebx) {
+    printf(rdi, "rdi");
+    printf(rsi);
     int eax = 0;
-
-    eax = ex4();
-
-    int edx = *rsp_8;
-    eax = ebx + (edx * 2);
-
+    eax = *rsi + *rdx * 2 + ebx;
     return eax;
 }
